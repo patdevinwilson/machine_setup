@@ -16,5 +16,7 @@ $ https://github.com/robbyrussell/oh-my-zsh
 ##4. Install PostgreSQL postgis and postgres
  
 brew install postgis
+
 initdb /usr/local/var/postgres
+
 pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
