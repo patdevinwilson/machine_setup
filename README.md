@@ -12,7 +12,7 @@ Useful packages, frameworks, and applications for a new machine
 
 4. Install PostGIS via Brew 
 
-#4.1 Install PostgreSQL postgis and postgres
+4.1 Install PostgreSQL postgis and postgres
  
 brew install postgis
 initdb /usr/local/var/postgres
