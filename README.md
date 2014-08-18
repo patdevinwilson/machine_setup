@@ -10,4 +10,10 @@ Useful packages, frameworks, and applications for a new machine
 
 3. Install Oh-My-Zsh ~ $ https://github.com/robbyrussell/oh-my-zsh
 
-4.
+4. Install PostGIS via Brew 
+
+#4.1 Install PostgreSQL postgis and postgres
+ 
+brew install postgis
+initdb /usr/local/var/postgres
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
