@@ -11,7 +11,7 @@ $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 $ brew install zsh
 
 ##3. Install Oh-My-Zsh 
-$ https://github.com/robbyrussell/oh-my-zsh
+$ curl -L http://install.ohmyz.sh | sh
 
 ##4. Install PostgreSQL postgis and postgres
  
